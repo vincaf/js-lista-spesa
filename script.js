@@ -19,7 +19,7 @@ while ( i < listaDellaSpesa.length ){
     i++;
 
     elementoSpesa.addEventListener('click', function(){
-    elementoSpesa.classList.add('bg-primary', 'text-white');
+    elementoSpesa.classList.toggle('active');
     })
 
     listItem.append(elementoSpesa);
